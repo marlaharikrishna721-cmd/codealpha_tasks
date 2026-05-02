@@ -1,31 +1,32 @@
-# 📊 Sales Prediction Project
-
-## 📌 Objective
-This project predicts sales based on advertising spend using machine learning.
 
 ---
 
-## 📂 Project Files
-- app.py → Web app (Streamlit)
-- main.py → Main Python script
-- data_preprocessing.py → Data cleaning & preparation
-- train_model.py → Model training
-- evaluate_model.py → Model evaluation
-- predict.py → Prediction function
-- new_data.csv → Dataset
+# 📘 2️⃣ Sales Prediction README
 
----
+Paste this inside your `sales_prediction_project/README.md`:
 
-## ⚙️ Technologies Used
+```md
+# 📈 Sales Prediction Project
+
+## 📌 Project Overview
+This project predicts future sales using machine learning models.  
+It helps in analyzing trends and making data-driven business decisions.
+
+## 🛠️ Technologies Used
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
-- Matplotlib
-- Seaborn
-- Streamlit
 
----
+## 📂 Project Structure
+- `main.py` → Main execution file  
+- `train_model.py` → Model training  
+- `evaluate_model.py` → Model evaluation  
+- `data_preprocessing.py` → Data cleaning  
+- `data_csv.csv` → Dataset  
+- `requirements.txt` → Dependencies  
 
-## 🚀 How to Run the Project
-
-### 1. Install libraries
+## ▶️ How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
