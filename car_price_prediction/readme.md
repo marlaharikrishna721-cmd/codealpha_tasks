@@ -1,15 +1,24 @@
-# 🚗 Car Price Prediction App
+# 🚗 Car Price Prediction
 
-This project predicts car resale prices using Machine Learning.
+## 📌 Project Overview
+This project predicts the price of cars using machine learning techniques.  
+It analyzes various features such as car specifications and outputs an estimated price.
 
-## 🔧 Features
-- Data preprocessing
-- Linear Regression model
-- Streamlit web app UI
-- User input-based prediction
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
 
-## ▶️ Run Locally
+## 📂 Project Structure
+- `main.py` → Main execution file  
+- `train.py` → Model training  
+- `evaluate.py` → Model evaluation  
+- `preprocess.py` → Data preprocessing  
+- `car_data.csv` → Dataset  
+- `requirements.txt` → Dependencies  
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+## ▶️ How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
